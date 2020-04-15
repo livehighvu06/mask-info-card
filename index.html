@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>口罩資訊卡</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="./js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>
+            <a class="title" href="./index.html">口罩哪裡買?</a>
+        </h1>
+        <div class="select">
+            <select name="city" id="city" class="select-city">
+                <option>-- 請選擇所在城市 --</option>
+            </select>
+            <select name="area" id="area" class="select-area">
+                <option>-- 請選擇所在區域 --</option>
+            </select>
+        </div>
+    </header>
+    <section class="content">
+        <div class="card-group"></div>
+    </section>
+    <footer>資料來源：衛福部公開資料庫 &#124; 僅用於學習用途</footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
